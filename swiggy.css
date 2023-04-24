@@ -1,0 +1,216 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+.main{
+    display: flex;
+   
+    
+    align-items: center;
+    justify-content: right;
+}
+
+.main .left nav img {
+   width: 22%;
+
+} 
+.main .left nav{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+
+}
+ .left nav .s{
+    background-color: #0c0c0c;
+    color: white;
+    width: 61px;
+    height: 26px;
+    font-weight: bold;
+    border: none;
+    margin: 6px;
+    
+}
+.left nav .l{
+    border: none;
+    background-color: transparent;
+    color: rgb(11, 11, 11);
+    height: 22px;
+     font-size: 12px;
+    font-weight: bold;
+    margin-left: 6cm;
+    
+    
+}  
+.left nav .l:hover{
+    color: #fc8019;
+} 
+.main .swiggy{
+    height: 10cm;
+    width: 45%;
+}
+ 
+ .main .left .txt{
+    margin-top: 28px;
+    margin-left: 66px;
+    
+ }
+
+.left .txt p{
+    
+    color: #686b78;
+    font-size: 300;
+    margin-top: 20px;
+}
+.left .txt .inp{
+    display: flex;
+    margin-top: 22px;
+    
+}
+.left .txt input{
+    width: 335px;
+    height: 45px;
+    border:0.5px solid #686b78;
+    padding: 3px;
+    font-size: small;
+   
+    
+}
+.left .txt .inp button{
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: #fc8019;
+    width: 85px;
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #2b1e16;
+   
+    color: white;
+    padding:25px;
+    height: 5cm;
+}
+.card img {
+    height: 3cm;
+    width: 2cm;
+}
+.card p{
+   
+    font-size: 10px;
+    font-weight: 100px;
+    color: #e0cbc1;
+    margin-inline: 35px;
+    margin-top: 18px;
+}
+.rest{
+    display:flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.rest .ph{
+    width: 6cm;
+    height: 9cm;
+ 
+}
+.text .logo img{
+    width: 32%;
+    height: 1cm;
+   
+}
+.rest .text{
+   
+    align-items: center;
+    padding: 70px;
+    
+    
+}
+.rest .text h3{
+    font-weight: 300;
+    color: #282c3f;
+}
+.rest .text p{
+    font-size: 15px;
+    width: 400px;
+    font-weight: 300;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    color: #7e808c;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    
+    background-color: black;
+    color: white;
+    padding: 22px;
+}
+.last .list{
+    margin-inline:33px;
+   
+}
+.last .list h2{
+    color: gray;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+.last .list p{
+    
+    font-size: 8px;
+}
+.last img{
+    border: 1px solid rgb(244, 242, 242);
+    width: 35%;
+    border-radius: 6px;
+    margin-bottom: 18px;
+    
+    margin-left: 280px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+footer img{
+    width: 2cm;
+}
+
+footer .one img{
+    margin: 35px;
+    
+}
+footer .two h1{
+    font-size: 8mm;
+    margin-inline: 5cm;
+}
+footer .three img{
+    border: 9px solid rgb(11, 11, 11);
+    border-radius: 20cm;
+    width: 8mm;
+    
+} 
+.left .txt .avni{
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.avni::after{
+    content: '';
+    animation: line 10s infinite ease-in;
+
+}
+@keyframes line {
+    0%{content: "Late night at office?";}
+    20%{content: "Hungry?";}
+    40%{content: "Unexpected guests?";}
+    60%{content: "Cooking gone wrong?";}
+    80%{content: "Movie marathon?";}  
+    100%{content: "Movie night?";}  
+}
